@@ -10,37 +10,37 @@
 <div class="position-relative" style="height:100vh;margin:0 auto;margin-bottom: 0px;">
 	<div id="slider5" class="owl-carousel" style="z-index: 1;">
 		<!-- Slide 1-->
-		<div class="item active overlay-secondery-white-gradient"
+		<div class="item active"
 			data-ls="bgsize:cover; bgposition:50% 50%; duration:8000; transition2d:3; timeshift:-500; deeplink:home; kenburnszoom:in; kenburnsrotate:0; kenburnsscale:1.1; parallaxevent:scroll; parallaxdurationmove:500;">
-			<img width="1920" height="1080" src="{{asset('images/WhatsApp Image 2019-11-02 at 11.30.34 PM(3).jpeg')}}" class="ls-bg" alt="" />
+			<img width="1920" height="1080" src="{{asset('images/Giorgia - Rear Profile.jpg')}}" class="ls-bg" alt="" />
 		</div>
 
 		<!-- Slide 2-->
-		<div class="item overlay-secondery-white-gradient"
+		<div class="item"
 			data-ls="bgsize:cover; bgposition:50% 50%; duration:8000; transition2d:3; deeplink:latest-works; kenburnszoom:out; kenburnsrotate:0; kenburnsscale:1.1; parallaxtype:3d; parallaxevent:scroll; parallaxdurationmove:500; parallaxrotate:4;">
-			<img width="1920" height="1080" src="{{asset('images/giorgia-2.jpg')}}" class="ls-bg" alt="" />
+			<img width="1920" height="1080" src="{{asset('images/Giorgia - Starboard.jpg')}}" class="ls-bg" alt="" />
 		</div>
 
 		<!-- Slide 3-->
-		<div class="item overlay-secondery-white-gradient"
+		<div class="item"
 			data-ls="bgsize:cover; bgposition:50% 50%; duration:8000; transition2d:3; deeplink:contact-us; kenburnszoom:in; kenburnsscale:1.2; parallaxevent:scroll;">
 			<img width="1920" height="1080" src="{{asset('images/[36m-Yacht-GIORGIA]-1618-72.jpg')}}" class="ls-bg" alt="" />
 		</div>
 
 		<!-- Slide 4-->
-		<div class="item overlay-secondery-white-gradient"
+		<div class="item"
 			data-ls="bgsize:cover; bgposition:50% 50%; duration:8000; transition2d:3; deeplink:contact-us; kenburnszoom:in; kenburnsscale:1.2; parallaxevent:scroll;">
 			<img width="1920" height="1080" src="{{asset('images/[36m-Yacht-GIORGIA]-1618-40.jpg')}}" class="ls-bg" alt="" />
 		</div>
 	</div>
-    <div class="angle-shade-2" ></div>
+    <!-- <div class="angle-shade-2" ></div> -->
 </div>
 <!-- Slider End -->
 
 <section class="full-row bg-gray" style="z-index: 99">
     <div class="container">
         <div class="row">
-            <div class="col-md-5 col-lg-5">
+            <div>
                 <div class="main-title-area">
                     <h2 class="title">About Giorgia </h2>
                 </div>
@@ -53,7 +53,7 @@
                     yachting experience can be tailored to accommodate every need and desire, providing a sense of
                     freedom and flexibility that is truly unrivalled.</p>
             </div>
-            <div class="col-md-7 col-lg-7" >
+            <!-- <div class="col-md-7 col-lg-7" >
                 <div class="video_about" style="position: absolute; top: -290px; right: -85px; z-index: 90; "> 
 					<img src="images/WhatsApp Image 2019-11-02 at 11.30.32 PM(3).jpeg" alt="" style="border-top-left-radius: 60%;">
 					<div class="position-absolute" style="
@@ -71,13 +71,13 @@
 									<div></div>
 									<div></div>
 								</div>
-							</div>
+							</div> -->
 							<!-- <span class="flaticon-play-button text-secondery xy-center"></span> -->
-						</a>
+						<!-- </a> -->
 						<!-- Use youtube or Vimeo video link in href, first open the video and just copy the link from url and past here -->
-					</div>
+					<!-- </div>
 				</div>
-            </div>
+            </div> -->
         </div>
     </div>
 </section>
@@ -90,8 +90,8 @@
                 <div class="main-title-area text-center">
                     <h2 class="title left-right-line mb-3">Interior</h2>
                 </div>
-                <span class="subtext text-secondary text-center mb-5 box-width">Across the street from the
-                    ordinary</span>
+                <!-- <span class="subtext text-secondary text-center mb-5 box-width">Across the street from the
+                    ordinary</span> -->
             </div>
         </div>
         <div class="row" style="margin-bottom: 150px;">
@@ -104,9 +104,10 @@
                             <div class="carousel-item"> <img src="img/width/39.jpg" alt="Image not found!"> </div>
                             <div class="carousel-item"> <img src="img/width/40.jpg" alt="Image not found!"> </div>
                         </div>
-                        <div class="slider-arrow"> <a class="carousel-control-prev" href="#carouselExampleIndicators"
-                                role="button" data-slide="prev"> <i class="fas fa-angle-double-left"></i> </a> <a
-                                class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                        <div class="slider-arrow"> 
+							<a class="carousel-control-prev" href="#carouselExampleIndicators"
+								role="button" data-slide="prev"> <i class="fas fa-angle-double-left"></i> </a> 
+							<a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
                                 data-slide="next"> <i class="fas fa-angle-double-right"></i> </a> 
 						</div>
                     </div>
@@ -139,8 +140,8 @@
                 <div class="main-title-area text-center">
                     <h2 class="title left-right-line mb-3">Exterior</h2>
                 </div>
-                <span class="subtext text-secondary text-center mb-5 box-width">Across the street from the
-                    ordinary</span>
+                <!-- <span class="subtext text-secondary text-center mb-5 box-width">Across the street from the
+                    ordinary</span> -->
             </div>
         </div>
 		<div class="row">            
@@ -195,8 +196,71 @@
 				<div class="main-title-area text-center">
 					<h2 class="title left-right-line mb-3">Specifications</h2>
 				</div>
-				<span class="subtext text-secondary text-center mb-5 box-width">Across the street from the ordinary</span> </div>
+				<!-- <span class="subtext text-secondary text-center mb-5 box-width">Across the street from the ordinary</span> </div> -->
 		</div>
+
+		<table class='specification'>
+			<tr>
+				<th>Length</th>
+				<td>36.6 m (120’)</td>
+			</tr>
+			<tr>
+				<th>Beam</th>
+				<td>7.86 m (26’)</td>
+			</tr>
+			<tr>
+				<th>Draft</th>
+				<td>1.96 m (6’)</td>
+			</tr>
+			<tr>
+				<th>Built</th>
+				<td>2009</td>
+			</tr>
+			<tr>
+				<th>Builder</th>
+				<td>Azimut Benetti SpA</td>
+			</tr>
+			<tr>
+				<th>Engines</th>
+				<td>2 x Caterpillar C32 1550 bhp</td>
+			</tr>
+			<tr>
+				<th>Flag</th>
+				<td><img src="images/manflag.png" alt="" class='flag'></td>
+			</tr>
+			<tr>
+				<th>Hull</th>
+				<td>Glass-Reinforced Plastic</td>
+			</tr>
+			<tr>
+				<th>Hull Type</th>
+				<td>Displacement</td>
+			</tr>
+			<tr>
+				<th>Cabins</th>
+				<td>5</td>
+			</tr>
+			<tr>
+				<th>Guests</th>
+				<td>10</td>
+			</tr>
+			<tr>
+				<th>Crew</th>
+				<td>7</td>
+			</tr>
+			<tr>
+				<th>Speed</th>
+				<td>13 knots (cruising) 16 knots (max)</td>
+			</tr>
+			<tr>
+				<th>Range</th>
+				<td>3,500 mm</td>
+			</tr>
+		</table>
+	</div>
+</section>
+<section class="full-row bg-white">
+	<div class='container'>
 		<div class="row">
 			<div class="col-md-6 col-lg-4">
 				<div class="room-thumb-grid-2 hover_zoom mb-4 bg-light">

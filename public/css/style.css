@@ -100,7 +100,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6{
 .navbar-header .navbar-light .navbar-nav .nav-link:hover, 
 .navbar-header .navbar-light .navbar-nav .nav-link:focus {
 	color: var(--primary-theme-color);
-	background: transparent
+	background: transparent;
 }
 .header-3 .navbar-nav .nav-link,
 .header-4 .navbar-nav .nav-link{
@@ -392,7 +392,8 @@ a.btn-scroll:hover,
 .accordion .card-header:hover,
 .bootstrap-select .dropdown-menu.inner li.selected a,
 .room-thumb .upper-place-top-left span {
-	background-color: var(--primary-theme-color) !important;
+	/* background-color: var(--primary-theme-color) !important; */
+	background-color:rgba(0, 0, 0, .5)
 }
 /*===== Secondery Font Color CSS =====*/
 .text-secondery,
@@ -1069,7 +1070,7 @@ select {
 .btn{
 	font-weight: 500;
 	line-height: 42px;
-	border-radius: 3px;
+	border-radius: 0px;
 	font-size: 14px;
 	padding: 0 25px;
 	border: 2px solid transparent;
@@ -1537,7 +1538,8 @@ section{
 	border-bottom: 1px solid;
 }
 .top-header{
-	font-size: 13px
+	font-size: 13px;
+	background-color:white;
 }
 .top-header ul li{
 	margin-left: 20px;
@@ -4119,7 +4121,8 @@ No media query for `xs` since this is the default in Bootstrap*/
 		padding-top: 40px
 	}
 	.header-1 .navbar-header {
-		padding-bottom: 10px
+		/* padding-bottom: 10px; */
+		background-color:#00b0ff;
 	}
 	.header-1.fixed-top .navbar-header,
 	.header-2.fixed-top .navbar-header	{
@@ -4748,4 +4751,22 @@ h3,
 	-o-transform: rotate(0deg);
 	-ms-transform: rotate(0deg);
 	transform: rotate(0deg)
+}
+
+.specification{
+	width:70%;
+	margin:auto;
+}
+
+.specification tr{
+	border-bottom:1px solid lightgrey;
+	height:50px;
+
+}
+.specification tr td{
+	text-align:center;
+}
+
+.flag{
+	width:100px; 
 }
