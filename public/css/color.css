@@ -5,7 +5,7 @@ Theme Color All Codes Variable
 	 --primary-theme-color: #f4c024;  /* theme primary color */
 }
 :root {
-	 --secondery-theme-color: #0943a0;  /* theme secondery color */
+	 --secondery-theme-color: #00b0ff;  /* theme secondery color */
 }
 :root {
 	 --dark-theme-color: #1a1a1a;  /* theme dark font color */
@@ -17,7 +17,7 @@ Theme Color All Codes Variable
 	 --white-color: #fff;  /* theme white font color */
 }
 :root{
-	--bg-dark: #022762; /* theme dark font color */
+	--bg-dark: #0fa1e6; /* theme dark font color */
 }
 :root {
 	 --black-color: #000;  /* theme black font color */
@@ -36,13 +36,13 @@ Theme Color All Codes Variable
  Overlay
  ==================================*/
  :root{
- 	--theme-overlay-secondery-color-4: rgba(9, 67, 160, .4)
+ 	--theme-overlay-secondery-color-4: rgba(0, 169, 245, .4)
  }
  :root{
- 	--theme-overlay-secondery-color-6: rgba(9, 67, 160, .65)
+ 	--theme-overlay-secondery-color-6: rgba(0, 169, 245, .65)
  }
  :root{
- 	--theme-overlay-secondery-color-8: rgba(9, 67, 160, .8)
+ 	--theme-overlay-secondery-color-8: rgba(0, 169, 245, .8)
  }
  :root{
  	--theme-overlay-secondery-deep-color: rgba(2, 21, 52, .7)

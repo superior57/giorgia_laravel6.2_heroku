@@ -43,7 +43,9 @@
     <div id="page_wrapper">
         <div class="row">
             @yield('header')
+            <div class="full-row p-0">
             @yield('content')
+            </div>
             @yield('footer')
             <!-- Copyright Section End -->
 		    <div class="scroll-to-top"> <a href="#" class="btn-scroll" data-target="body"><i class="fa fa-angle-up" aria-hidden="true"></i><b>Back to Top</b></a> </div>
@@ -60,7 +62,7 @@
     <script src="{{asset('js/layerslider.kreaturamedia.jquery.js')}}"></script> 
     <script src="{{asset('js/popper.min.js')}}"></script> 
     <script src="{{asset('js/bootstrap.min.js')}}"></script> 
-    <script src="{{asset('js/common.j')}}s"></script>
+    <script src="{{asset('js/common.js')}}"></script>
     <script src="{{asset('js/jquery.countdown.js')}}"></script>
     <script src="{{asset('js/jquery.cookie.js')}}"></script> 
     <script src="{{asset('js/custom.js')}}"></script> 

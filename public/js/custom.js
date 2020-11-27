@@ -201,21 +201,40 @@
 		height: 840
 	});
 	
-	$('#slider5').layerSlider({
-		sliderVersion: '6.0.0',
-		type: 'fullwidth',
-		responsiveUnder: 0,
-		layersContainer: 1200,
-		maxRatio: 1,
-		parallaxScrollReverse: true,
-		hideUnder: 0,
-		hideOver: 100000,
-		skin: 'v5',
+	// $('#slider5').layerSlider({
+	// 	sliderVersion: '6.0.0',
+	// 	type: 'fullwidth',
+	// 	responsiveUnder: 0,
+	// 	layersContainer: 1200,
+	// 	maxRatio: 1,
+	// 	parallaxScrollReverse: true,
+	// 	hideUnder: 0,
+	// 	hideOver: 100000,
+	// 	skin: 'v5',
+	// 	showBarTimer: true,
+	// 	thumbnailNavigation: 'disabled',
+	// 	allowRestartOnResize: true,
+	// 	skinsPath: 'skins/',
+	// 	height: 980,
+		
+	// });
+
+	$('#slider5').owlCarousel({
+		loop: true,
+		margin: 0,
+		nav: false,
+		dots: false,
+		autoplayHoverPause: false,
+		smartSpeed: 300,
+		autoplay: true,
+		// navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
+		responsive: {
+			0: {
+				items: 1
+			}
+		},
 		showBarTimer: true,
-		thumbnailNavigation: 'disabled',
-		allowRestartOnResize: true,
-		skinsPath: 'skins/',
-		height: 980
+		
 	});
 	
 
@@ -243,7 +262,7 @@
                 1200: {
                     items: 4
                 }
-            }
+            },
         });
     };
 	
